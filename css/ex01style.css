@@ -1,4 +1,45 @@
-#header{
-    background-color: #ffff66;
-    display: inline;
+@charset "UTF-8";
+
+body{
+    width: 760px;
+    height: 400px;
 }
+
+#header{
+    width: 760px;
+    height: 100px;
+    background-color: #ffff66;
+    display: flex;
+}
+
+#header{
+    color: white;
+    
+    
+}
+#header_part1{
+    background-color: #000066;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 80px;
+}
+#header_part2{
+    background-color: #005500;
+    width: 450px;
+}
+
+#header_part1, #header_part2{
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+/* *{
+    outline: 1px solid #ff0000;
+}  */
+
