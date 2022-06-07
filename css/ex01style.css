@@ -1,22 +1,23 @@
 @charset "UTF-8";
 
 body{
+
     width: 760px;
     height: 400px;
-}
-
-#header{
-    width: 760px;
-    height: 100px;
-    background-color: #ffff66;
-    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #header{
     color: white;
-    
-    
+    width: 760px;
+    height: 100px;
+    background-color: #ffff66;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
 #header_part1{
     background-color: #000066;
     width: 200px;
@@ -36,10 +37,34 @@ body{
 
 /* None of the business with font-size,style and text-placement this time!*/
 
-
-
-
 /* *{
     outline: 1px solid #ff0000;
 }  */
 
+
+#navi_ul_blk{
+    height: 70px;
+    background-color: #ccffcc;
+    display: flex;
+
+}
+
+#navi_ul_blk ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-align: center;
+    margin:auto;
+}
+
+/* ↑「#navi_ul_blk li」ではなく、「#navi_ul_blk ul」と書かないと、flex-directionプロパティで横並びにならなかった */
+
+#navi_ul_blk ul li{
+    width: 130px;
+    height: 50px;
+    background-color: #ffcccc;
+    border-width: 5px;
+    border-style: solid;
+    border: 5px solid #996699;
+    
+}
