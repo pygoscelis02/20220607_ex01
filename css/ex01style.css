@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-*{
+/* *{
     outline: 1px solid #ff0000;
-} 
+}  */
 
 
 
@@ -86,7 +86,7 @@ body{
     background-color: #66ffcc;
     border-right: 5.0px solid #996699;
 }
-/* li:nth-child(X) （※Xは任意の数字）という指定をしてはじめてうまく適用できた */
+/* li:nth-child(X) （※Xは任意の数字）という指定をしてはじめてうまく適用できた。何故？ */
 /* ↑.m4{
     background-color: #66ffcc;
     border-right: 5.0px solid #996699;
@@ -128,8 +128,8 @@ body{
     flex-grow:1;
     background-color: #99ff00;
 }
-/* ↑<body>のヨコハバを変えたときに、contents2のヨコハバも一緒に代わる可能性が高いと考えられる。
-そういった変更の際に煩雑にならないように、「flex-grow:1;」と記述。 */
+/* ↑<body>のヨコハバを変える仕様変更をしなければならなくなった場合に、contents2のヨコハバも一緒に代わる可能性が高いと考えられる。
+そういった変更の際に煩雑にならないように、「flex-grow:1;」と記述。 ヨシ!!! */
 
 
 
