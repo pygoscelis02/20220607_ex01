@@ -88,4 +88,9 @@ body{
 こう書くと、メニュー４の左側に線が現れなかった。
 なので、classセレクタとIDセレクタは混ぜて使ってはいけない模様。何故?? */
 
-
+#navigator a{
+    text-decoration: none;
+}
+#navi_ul_blk ul li:hover{
+    background-color: #ff8686;
+}
