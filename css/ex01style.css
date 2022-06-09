@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-/* *{
+*{
     outline: 1px solid #ff0000;
-}  */
+} 
 
 
 
@@ -123,16 +123,25 @@ body{
 
 #contents1 {
     width: 160px;
+    height: auto;
     background-color: #9999cc;
 }
 
 #contents2 {
     height: 30px;
-    width: 600px;
+    flex-grow:1;
     background-color: #99ff00;
 }
+/* ↑<body>のヨコハバを変えたときに、contents2のヨコハバも一緒に代わる可能性が高いと考えられる。
+そういった変更の際に煩雑にならないように、「flex-grow:1;」と記述。 */
 
 
 
 
 
+/* 🐀🐀🐀↓ FOOTER PART ↓🐀🐀🐀 */
+
+#footer {
+    height: 50px;
+    background-color: #993399;
+}
