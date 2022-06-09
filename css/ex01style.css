@@ -7,7 +7,6 @@
 
 
 body{
-
     width: 760px;
     height: 400px;
     margin-left: auto;
@@ -22,7 +21,6 @@ body{
 
 #header{
     color: white;
-    width: 760px;
     height: 100px;
     background-color: #ffff66;
     display: flex;
@@ -59,7 +57,6 @@ body{
     height: 70px;
     background-color: #ccffcc;
     display: flex;
-
 }
 
 #navi_ul_blk ul{
@@ -115,7 +112,6 @@ body{
 /* 🐀🐀🐀↓ CONTENTS PART ↓🐀🐀🐀 */
 
 #main {
-    max-width: 760px;
     height: 400px;
     background-color: #ccffff;
     display: flex;
