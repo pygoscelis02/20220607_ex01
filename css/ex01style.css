@@ -114,3 +114,25 @@ body{
 
 /* 🐀🐀🐀↓ CONTENTS PART ↓🐀🐀🐀 */
 
+#main {
+    max-width: 760px;
+    height: 400px;
+    background-color: #ccffff;
+    display: flex;
+}
+
+#contents1 {
+    width: 160px;
+    background-color: #9999cc;
+}
+
+#contents2 {
+    height: 30px;
+    width: 600px;
+    background-color: #99ff00;
+}
+
+
+
+
+
