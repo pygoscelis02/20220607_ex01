@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+/* *{
+    outline: 1px solid #ff0000;
+}  */
+
+
+
 body{
 
     width: 760px;
@@ -7,6 +13,12 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+
+
+
+
+
+/* 🐀🐀🐀↓ HEADER PART ↓🐀🐀🐀 */
 
 #header{
     color: white;
@@ -37,10 +49,11 @@ body{
 
 /* None of the business with font-size,style and text-placement this time!*/
 
-/* *{
-    outline: 1px solid #ff0000;
-}  */
 
+
+
+
+/* 🐀🐀🐀↓ NAVIGATION-MENU PART ↓🐀🐀🐀 */
 
 #navi_ul_blk{
     height: 70px;
@@ -94,3 +107,10 @@ body{
 #navi_ul_blk ul li:hover{
     background-color: #ff8686;
 }
+
+
+
+
+
+/* 🐀🐀🐀↓ CONTENTS PART ↓🐀🐀🐀 */
+
