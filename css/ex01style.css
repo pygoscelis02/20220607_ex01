@@ -9,10 +9,6 @@
     padding: 0;
 }
 
-
-
-
-
 body{
     width: 760px;
     height: 600px;
@@ -22,10 +18,7 @@ body{
 }
 
 
-
-
-
-/* 🐀🐀🐀↓ HEADER PART ↓🐀🐀🐀 */
+/* 🐀🐀🐀🐀🐀🐀🐀🐀🐀🐀🐀🐀↓ HEADER PART ↓🐀🐀🐀🐀🐀🐀🐀🐀🐀🐀🐀🐀 */
 
 #header{
     color: white;
@@ -56,10 +49,7 @@ body{
 /* None of the business with font-size,style and text-placement this time!*/
 
 
-
-
-
-/* 🐀🐀🐀↓ NAVIGATION-MENU PART ↓🐀🐀🐀 */
+/* 🐀🐀🐀🐀🐀🐀🐀🐀🐀🐀🐀🐀↓ NAVIGATION-MENU PART ↓🐀🐀🐀🐀🐀🐀🐀🐀🐀🐀🐀🐀 */
 
 #navi_ul_blk{
     height: 70px;
@@ -82,24 +72,30 @@ body{
     width: 130px;
     height: 50px;
     background-color: #ffcccc;
-    border-left: 5.0px solid #996699;
+    /* border-left: 5.0px solid #996699;
     border-top: 5.0px solid #996699;
-    border-bottom: 5.0px solid #996699;
+    border-bottom: 5.0px solid #996699; */
 }
 
 /* ↑「border-style: solid」がないとそもそも線が現れない。ここに結構手間取ってしまったので次は注意！ */
-
-
-#navi_ul_blk ul li:nth-child(4){
-    background-color: #66ffcc;
-    border-right: 5.0px solid #996699;
+#navi_ul_blk ul{
+    border: 5.0px solid #996699;
 }
-/* li:nth-child(X) （※Xは任意の数字）という指定をしてはじめてうまく適用できた。何故？ */
-/* ↑.m4{
+#navi_ul_blk > ul > li+li{
+    border-left: 5.0px solid #996699;
+    /* border-left: 5.0px solid #996699; */
+}
+/* #navi_ul_blk ul li:nth-child(4){
     background-color: #66ffcc;
     border-right: 5.0px solid #996699;
-} 
-こう書くと背景色がミドリに指定できなかった。何故??*/
+} */
+/* li:nth-child(X) （※Xは任意の数字）という指定をしてはじめてうまく適用できた。何故？ */
+/* .m4{
+    background-color: #66ffcc;
+    border-right: 5.0px solid #996699;
+}  */
+/* こう書くと背景色がミドリに指定できなかった。何故??*/
+
 /*↑ #navi_ul_blk ul li .m4{
     border-right: 5.0px solid #996699;
 }
@@ -114,10 +110,7 @@ body{
 }
 
 
-
-
-
-/* 🐀🐀🐀↓ CONTENTS PART ↓🐀🐀🐀 */
+/* 🐀🐀🐀🐀🐀🐀🐀🐀🐀🐀🐀🐀↓ CONTENTS PART ↓🐀🐀🐀🐀🐀🐀🐀🐀🐀🐀🐀🐀 */
 
 #main {
     height: 400px;
@@ -140,10 +133,7 @@ body{
 そういった変更の際に煩雑にならないように、「flex-grow:1;」と記述。 ヨシ!!! */
 
 
-
-
-
-/* 🐀🐀🐀↓ FOOTER PART ↓🐀🐀🐀 */
+/* 🐀🐀🐀🐀🐀🐀🐀🐀🐀🐀🐀🐀↓ FOOTER PART ↓🐀🐀🐀🐀🐀🐀🐀🐀🐀🐀🐀🐀 */
 
 #footer {
     height: 50px;
